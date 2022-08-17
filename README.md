@@ -15,6 +15,8 @@ Limitations:
   Variables not taken out such as file path and counters
   Search args list
   Page counters are  fixed to 50
+  Error handling is done in a basic way by skipping if unable to retrieve element
+  Reusable code should be managed in better way
   
 Proposed Architecture:
  Azure functions (Get URL) --  Azure EVent Hub - Azure functions (Event hubs trigger)-- Cosmos DB (parsed output) -- Cleanse -- Processed data in DB -- Analytics
