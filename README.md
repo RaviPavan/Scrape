@@ -17,6 +17,7 @@ Limitations:
   7. Page counters are  fixed to 50
   8. Error handling is done in a basic way by skipping if unable to retrieve element
   9. Reusable code should be managed in better way
+  10.Current speed 5 threads/ 100 profiles / 20 min  Details -->  Random 5 0 100 2022-08-17 09:42:22.379164 2022-08-17 10:02:50.289380
   
 Proposed Architecture:
 
