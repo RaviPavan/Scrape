@@ -8,15 +8,15 @@ Obj:
 6. Save
 
 Limitations:
-  Code uses selenium and bs4
-  Need manual authentication to pass security check
-  Getting 429 error frequently (rate limiting/throttling). Have to check optimal rate on which we can scrape
-  Files written to output
-  Variables not taken out such as file path and counters
-  Search args list
-  Page counters are  fixed to 50
-  Error handling is done in a basic way by skipping if unable to retrieve element
-  Reusable code should be managed in better way
+  1. Code uses selenium and bs4
+  2. Need manual authentication to pass security check
+  3. Getting 429 error frequently (rate limiting/throttling). Have to check optimal rate on which we can scrape
+  4. Files written to output
+  5. Variables not taken out such as file path and counters
+  6. Search args list
+  7. Page counters are  fixed to 50
+  8. Error handling is done in a basic way by skipping if unable to retrieve element
+  9. Reusable code should be managed in better way
   
 Proposed Architecture:
  Azure functions (Get URL) --  Azure EVent Hub - Azure functions (Event hubs trigger)-- Cosmos DB (parsed output) -- Cleanse -- Processed data in DB -- Analytics
