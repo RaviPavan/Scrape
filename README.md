@@ -47,5 +47,7 @@ Aspects to think:
 20. Alternatives for selenium and beautiful soup to scrape?
 21. How to rate limit based on IPs
 22. How to handle 404 /429 (http error codes)
+23. Trace performance of scraping
+24. Trace how actively we should download a profile
 
 EventHub —> Trigger —> Azure cosmos Db — > postgres
