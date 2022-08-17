@@ -7,6 +7,19 @@ Obj:
 5. Get information from profiles and structure the output
 6. Save
 
+Limitations:
+  Code uses selenium and bs4
+  Need manual authentication to pass security check
+  Getting 429 error frequently (rate limiting/throttling). Have to check optimal rate on which we can scrape
+  Files written to output
+  Variables not taken out such as file path and counters
+  Search args list
+  Page counters are  fixed to 50
+  
+Proposed Architecture:
+ Azure functions (Get URL) --  Azure EVent Hub - Azure functions (Event hubs trigger)-- Cosmos DB (parsed output) -- Cleanse -- Processed data in DB -- Analytics
+                                                                                     -- BLob (compressed HTML storage)  
+  
 Aspects to think:
 1. How to use multiple logins for authentication? Also, How to determine how LinkedIn stops abuse?
 2. How to determine how many search URLs to build?
@@ -29,5 +42,6 @@ Aspects to think:
 19. Scroll pause time and implicit wait?
 20. Alternatives for selenium and beautiful soup to scrape?
 21. How to rate limit based on IPs
+22. How to handle 404 /429 (http error codes)
 
 EventHub —> Trigger —> Azure cosmos Db — > postgres
