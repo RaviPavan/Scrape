@@ -19,6 +19,8 @@ Limitations:
   9. Reusable code should be managed in better way
   
 Proposed Architecture:
+
+
  Azure functions (Get URL) --  Azure EVent Hub - Azure functions (Event hubs trigger)-- Cosmos DB (parsed output) -- Cleanse -- Processed data in DB -- Analytics
                                                                                      -- BLob (compressed HTML storage)  
   Key vault (manage credentials)
