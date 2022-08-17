@@ -1,9 +1,7 @@
 # Scrape
 
-# Video 1 https://www.youtube.com/watch?v=d6EQnjj-Bx0
 # import pip3 install selenium/bs4/chromedriver/lsl/lxml parser
-#scrape - https://www.youtube.com/watch?v=QVnBCtgS_-U
-# video ref https://www.youtube.com/watch?v=yxTtMNWqnMA
+
 
 #https://www.pythonfixing.com/2021/11/fixed-beautifulsoupgettext-ignoring.html
 #https://beautiful-soup-4.readthedocs.io/en/latest/
@@ -360,7 +358,7 @@ def GetURLList(Searchargs):
             #print("**********************************************************************")
             print("*************************** P R O F I L E S  T O  S C R A P E *******************************************",len(looplist_in))
             looplist.extend(looplist_in)
-            with open(r'URLList.txt', 'a') as fp:
+            with open(r'C:\\Users\\ravip\\Downloads\\Python\\URLList.txt', 'a') as fp:
                 for url in looplist_in:
                     # write each item on a new line
                     fp.write("%s\n" % url)
