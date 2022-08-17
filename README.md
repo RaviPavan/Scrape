@@ -19,7 +19,7 @@ Limitations:
 Proposed Architecture:
  Azure functions (Get URL) --  Azure EVent Hub - Azure functions (Event hubs trigger)-- Cosmos DB (parsed output) -- Cleanse -- Processed data in DB -- Analytics
                                                                                      -- BLob (compressed HTML storage)  
-  
+  Key vault (manage credentials)
 Aspects to think:
 1. How to use multiple logins for authentication? Also, How to determine how LinkedIn stops abuse?
 2. How to determine how many search URLs to build?
