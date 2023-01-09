@@ -1,7 +1,7 @@
-//Interaction code start
+//colector
 country('us')
 try{
-  let url = "https://www.linkedin.com/in/williamhgates" //new URL(input.url)
+  let url = new URL(input.url)
   navigate(url, {timeout: 8e4, solve_captcha: true});  
   if(!el_exists('meta[name="locale"][content="en_US"]')){
     throw new Error('Wrong localization '+parse().locale)
@@ -15,10 +15,9 @@ try{
 }
 
 let data = parse();
-collect({url: new URL(input.url), ...data, avatar: data?.avatar ? new URL(data?.avatar) : null});
-//Interaction code end
+collect({url: new URL(input.url), ...data});
 
-//parser start
+//parser
 let trim = str=>(str||'').replace(/\s+/g, ' ').trim()
 const URL_ = (u)=>{
     return !!u && new URL(u)||undefined
@@ -82,7 +81,6 @@ let get_experience_multple_positions = ()=>{
     return data;
 };
 
-
 function get_activities(){
     return $('section.activities').find('.activities-section__item--posts')
         .toArray().map(item=>{
@@ -134,6 +132,7 @@ if (!name && !position && !about)
 const followers = $('h3.top-card-layout__first-subline .top-card__subline-item:contains("follower")')?.text()?.replace(/\D+/g, '').trim() || null,
     connections = $('h3.top-card-layout__first-subline .top-card__subline-item:contains("connection")')?.text()?.replace(/\D+/g, '').trim() || null;
 return {
+   
     locale:$('meta[name="locale"][content]').attr('content'),
     name,
     position,
@@ -149,7 +148,8 @@ return {
     connections: connections ? +connections : null,
     educations_details: trim($('.top-card__links-container [data-section="educationsDetails"]').text()),
     posts: get_posts(),
-    experience: JSON.stringify(get_experience()),
+    experience: get_experience(),
+    experience_multple_positions: get_experience_multple_positions(),
     education: $('[data-section="educationsDetails"] .education__list li').toArray().map(item=>({
         title: trim($(item).find('.result-card__title, .profile-section-card__title').text()),
         degree: trim($(item).find('.result-card__subtitle > span:nth-child(1), .profile-section-card__subtitle > span:nth-child(1)').text()),
@@ -230,4 +230,3 @@ return {
         })),
     timestamp: new Date(),
 };
-

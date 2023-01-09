@@ -73,6 +73,8 @@ let get_experience = ()=>{
     });
     return data;
 };
+
+
 function get_activities(){
     return $('section.activities').find('.activities-section__item--posts')
         .toArray().map(item=>{
@@ -139,7 +141,7 @@ return {
     connections: connections ? +connections : null,
     educations_details: trim($('.top-card__links-container [data-section="educationsDetails"]').text()),
     posts: get_posts(),
-    experience: get_experience(),
+    experience: JSON.stringify(get_experience()),
     education: $('[data-section="educationsDetails"] .education__list li').toArray().map(item=>({
         title: trim($(item).find('.result-card__title, .profile-section-card__title').text()),
         degree: trim($(item).find('.result-card__subtitle > span:nth-child(1), .profile-section-card__subtitle > span:nth-child(1)').text()),
@@ -221,21 +223,3 @@ return {
     timestamp: new Date(),
 };
 
-
-,
-    publications: $('[data-section="publications"] .publications__list > li').toArray().map(x=>(
-        {
-            "url": $(x).find('a.personal-project__button').attr("href")?.match(/(?<=url=).*?(?=&)/)?.[0] ? URL_(decodeURIComponent($(x).find('a.personal-project__button').attr("href")?.match(/(?<=url=).*?(?=&)/)?.[0])) : null,
-            "name": trim($(x).find(".profile-section-card__title").text()),
-            "publisher": trim($(x).find(".profile-section-card__subtitle > :nth-child(1)").text()),
-            "description": trim($(x).find(".show-more-less-text").text()),
-            "published_on": get_patents_date(trim($(x).find(".profile-section-card__subtitle time").text()))
-        })),
-    awards:  $('[data-section="awards"] .awards__list > li').toArray().map(x=>(
-        {
-            "title": trim($(x).find(".profile-section-card__title").text()),
-            "issuer": trim($(x).find(".profile-section-card__subtitle").text()),
-            "issuedOn": trim($(x).find(".profile-section-card__meta time").text()) ? new Date(trim($(x).find(".profile-section-card__meta time").text()) ).toISOString() : null,
-            "description": null
-        })),
-    timestamp: new Date(),
