@@ -1,0 +1,36 @@
+//https://www.tutorialspoint.com/online_jquery_editor.php
+//https://api.jquery.com/nth-child-selector/
+<!doctype html>
+<html>
+<head>
+<title>Online jQuery Editor</title>
+<script src="https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
+<script>
+
+</script>
+</head>
+<body>
+   <h1>jQuery element Selector</h1>
+
+   <p>This is p tag</p>
+   <span>This is span tag</span>
+   <div>This is div tag</div>
+   <span>Kirsty Hulston - Regional Director, Singapore - Hays | LinkedIn</span>
+    <div class="header base-detail-page__header px-mobile-container-padding bg-color-background-container global-alert-offset sticky-header">
+    <p class="header1 base-detail-page__header1 px-mobile-container-padding bg-color-background-container global-alert-offset sticky-header">Test In 1</p>
+    <p class="header2 base-detail-page__header2 px-mobile-container-padding bg-color-background-container global-alert-offset sticky-header">Test In 2</p>
+     <p class="header3 base-detail-page__header3 px-mobile-container-padding bg-color-background-container global-alert-offset sticky-header">Test In 3</p>
+    Test out</div>
+<script>
+
+   $(document).ready(function() {
+     var item1 = $( "li.item-1" )[ 0 ];
+    $(":root").find( ".base-detail-page__header1,.base-detail-page__header2" ).css( "background-color", "red" );
+     $(":root").find( ".base-detail-page__header .base-detail-page__header3" ).css( "background-color", "green" );
+     $(":root").find( ".base-detail-page__header " ).css( "background-color", "orange" );
+
+    
+   });
+</script>
+</body>
+</html>

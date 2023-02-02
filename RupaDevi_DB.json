@@ -1,0 +1,71 @@
+{
+    "education": [
+      {
+        "to": "2011",
+        "from": "2009",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQEpZyTSZY9YlQ/company-logo_100_100/0/1519897730494?e=2147483647&v=beta&t=rA_p4sSBxIjF_jq_CjUJ4HuZsC5elI3TUUnWNEN8jdo",
+        "degree": "Master of Science (MS), Electronic Media",
+        "school": "Anna University",
+        "school_id": "15094330"
+      },
+      {
+        "to": "2009",
+        "from": "2006",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQFnYPDIXmEmVA/company-logo_100_100/0/1519901065593?e=1657152000&v=beta&t=bW9eIGfKb2vUAyRsUL5OfY3DK-NNy2TvKfeCXhogsbs",
+        "degree": "Bachelor of Science (BS), Design and Visual Communications, General",
+        "school": "University of Madras",
+        "school_id": "9875665"
+      }
+    ],
+    "experience": [
+      {
+        "to": null,
+        "from": "2021-12-31T16:00:00.000Z",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQGkRJWk0eX3Ug/company-logo_100_100/0/1631655277891?e=1657152000&v=beta&t=FlIvF2W-e1JgfCb17EfbHaEzeNUvQUwpbI1bXyQDFZA",
+        "company": "Bloomreach",
+        "position": "Senior Design Manager",
+        "company_id": 36948
+      },
+      {
+        "to": "2021-09-30T16:00:00.000Z",
+        "from": "2020-03-31T16:00:00.000Z",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQEMmIbAfSLa6Q/company-logo_100_100/0/1634632719739?e=1657152000&v=beta&t=y86FTpvOA2ySAU2Abnq8LJWAt0aqu1iYtDeeyntVrjU",
+        "company": "Freshworks",
+        "position": "Staff Product Designer",
+        "company_id": 47744
+      },
+      {
+        "to": "2020-02-29T16:00:00.000Z",
+        "from": "2017-05-31T16:00:00.000Z",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQEMmIbAfSLa6Q/company-logo_100_100/0/1634632719739?e=1657152000&v=beta&t=y86FTpvOA2ySAU2Abnq8LJWAt0aqu1iYtDeeyntVrjU",
+        "company": "Freshworks",
+        "position": "Lead Product Designer",
+        "company_id": 47744
+      },
+      {
+        "to": "2017-04-30T16:00:00.000Z",
+        "from": "2014-01-31T16:00:00.000Z",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQEMmIbAfSLa6Q/company-logo_100_100/0/1634632719739?e=1657152000&v=beta&t=y86FTpvOA2ySAU2Abnq8LJWAt0aqu1iYtDeeyntVrjU",
+        "company": "Freshworks",
+        "position": "Senior Interaction Designer",
+        "company_id": 47744
+      },
+      {
+        "to": "2013-12-31T16:00:00.000Z",
+        "from": "2011-05-31T16:00:00.000Z",
+        "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQGzgqPTjiDuMQ/company-logo_100_100/0/1625077857768?e=2147483647&v=beta&t=y_c9_1lp6Ysse5RsEnbl2kw7SbsXEwHgWIo3VPomv3c",
+        "company": "HCL Technologies",
+        "position": "Interaction Designer",
+        "company_id": 101431
+      },
+      {
+        "to": "2011-04-30T16:00:00.000Z",
+        "from": "2010-11-30T16:00:00.000Z",
+        "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQGzgqPTjiDuMQ/company-logo_100_100/0/1625077857768?e=2147483647&v=beta&t=y_c9_1lp6Ysse5RsEnbl2kw7SbsXEwHgWIo3VPomv3c",
+        "company": "HCL Technologies",
+        "position": "Interaction Design Intern",
+        "company_id": 101431
+      }
+    ],
+    "contact_info": null
+  }

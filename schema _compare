@@ -1,0 +1,41 @@
+Source / Target
+
+Candidate_Industry: NULL
+Connection_degree:  NULL
+Contact_Info {}: NULL
+Education[]:
+    degree: degree
+    from: meta first part
+    logo: NULL
+    school: title
+    school_id: NULL
+    to: last part
+Email: NULL
+Experience[]:
+    Company:   company
+    CompanyId: NULL
+    description:  description
+    From: start_date
+    Logo: img
+    Position: title
+    To: end_Date
+First name: First half on name
+github_orgs: NULL
+github_url: NULL
+last_name: Second half of name
+linkedin_recruiter: NULL
+linkedin_url: input.url
+links{}:
+    type: input.type
+    url: url
+locale: locale
+location: city
+picture: avatar
+skills: NULL
+Source: "linkedin"
+Summary: About
+title: position
+twitter_link: NULL
+website: NULL
+
+

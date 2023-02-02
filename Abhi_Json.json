@@ -1,0 +1,105 @@
+{
+    "first_name": "Coco", 
+    "last_name": "Li", 
+    "picture": 
+      "https://media-exp1.licdn.com/dms/image/C5603AQH-urerg2iqzw/profile-displayphoto-shrink_200_200/0/1601370460748?e=1675900800&v=beta&t=8fKt0sL6AGXo8SQwQJiqxMLgN3-cUw6rCK2HBDR2WTM",
+    "title": "Business Director at Kingfisher Recruitment Group",
+    "location": "· Suzhou, Jiangsu, China",
+    "connection_degree": "3rd",
+    "summary": "",
+    "education": [
+      {
+        "degree": "Business Administration",
+        "school": "Soochow University (CN)",
+        "from": "1999",
+        "to": "2003",
+        "school_id": "11357",
+        "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQE-07f2xBGU2g/company-logo_100_100/0/1519906744159?e=1678320000&v=beta&t=JGg5buPC15rbDBLKa0vDw3F2gcDubGxfo7CO2NByXgM"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Kingfisher Recruitment Group",
+        "position": "Business Director",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQFSlmfP_FWN1g/company-logo_100_100/0/1615340155020?e=1678320000&v=beta&t=b04yxaTvZ_4cQ2QYLaDyDBnEF1g_ISyNRCQdO33UmfU",
+        "company_id": "13376814",
+        "from": "9/1/2018",
+        "to": null,
+        "description":
+          "Kingfisher Executive Search offers recruitment solutions globally to over 500 MNCs across various industries and have been recognized by our clients as their preferred recruitment partners for executive search services.   Established since 2003, our team of 100+ specialist consultants at Kingfisher provides mid-to-senior Executive Search and end-to-end Recruitment Process Outsourcing (RPO) solutions across the Asia Pacific region. We help clients design people strategies, attract and develop talents worldwide across Healthcare & Life Sciences, Professional Services & Consulting, Technology, Retail & FMCG, Automotive, Chemicals / Engineering & Manufacturing industries.   I work across various levels of seniority within highly reputable organisations having built a highly talented pool of individuals within my network ensuring that I make the best match possible for both client and candidate, allowing organisations to hire the best talent and for candidates to fulfil their career ambitions.  Responsibility"
+      },
+      {
+        "company": "Hays Suzhou",
+        "position": "Sr Client Manager",
+        "logo": null,
+        "company_id": null,
+        "from": "7/1/2018",
+        "to": "8/1/2018",
+        "description":
+          "Responsible for BD for Hays Talent Solution in JiangSu area, including identifying opportunity and turn into proposal and contract."
+      },
+      {
+        "company": "Hays Suzhou",
+        "position": "Manager",
+        "logo": null,
+        "company_id": null,
+        "from": "5/1/2016",
+        "to": "7/1/2018",
+        "description":
+          "Responsible for BD for Hays Talent Solution in JiangSu area, including identifying opportunity and turn into proposal and contract."
+      },
+      {
+        "company": "Kelly",
+        "position": "Branch Manager",
+        "logo": "https://media-exp1.licdn.com/dms/image/D560BAQHlPPE_RTEUiA/company-logo_100_100/0/1666722530512?e=1678320000&v=beta&t=Oxr03laPFUhZ9t_oEwGTgIho8DwBpDOdO8efLtyNRKc",
+        "company_id": "2307",
+        "from": "1/1/2016",
+        "to": "4/1/2016",
+        "description":
+          "Responsible for P&L of Suzhou team, focus on industrial, pharm& medical devices, consumer industry, covering all functions, including Finance & HR, operation, Sales, R&D and so on."
+      },
+      {
+        "company": "Kelly",
+        "position": "Managing Consultant",
+        "logo": "https://media-exp1.licdn.com/dms/image/D560BAQHlPPE_RTEUiA/company-logo_100_100/0/1666722530512?e=1678320000&v=beta&t=Oxr03laPFUhZ9t_oEwGTgIho8DwBpDOdO8efLtyNRKc",
+        "company_id": "2307",
+        "from": "6/1/2011",
+        "to": "12/1/2015",
+        "description":
+          "Responsible for P&L of Suzhou team, focus on industrial, pharm& medical devices, consumer industry, covering all functions, including Finance & HR, operation, Sales, R&D and so on."
+      },
+      {
+        "company": "Bosch automotive parts suzhou",
+        "position": "Sales",
+        "logo": null,
+        "company_id": null,
+        "from": "1/1/2006",
+        "to": "1/1/2010",
+        "description": null
+      }
+    ],
+    "skills": "Recruiting,Executive Search,Change Management",
+    "source": "linkedin",
+    "linkedin_recruiter": true,
+    "links": [
+      { "type": "linkedin", "url": "https://cn.linkedin.com/in/coco-li-1059a435" }
+    ],
+    "linkedin_url": "https://cn.linkedin.com/in/coco-li-1059a435",
+    "locale": "en_US",
+    "email": "",
+    "twitter_link": "",
+    "website": "",
+    "github_orgs": [],
+    "github_url": "",
+    "candidate_industry": "Management Consulting",
+    "contact_info": {
+      "vanity_url": null,
+      "websites": [],
+      "phones": [],
+      "ims": [],
+      "emails": [],
+      "twitter_ids": [],
+      "addresses": [],
+      "birthday": null
+    }
+}

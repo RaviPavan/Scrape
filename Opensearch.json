@@ -1,0 +1,387 @@
+DELETE customer
+
+PUT /customer
+{
+    "settings": {
+        "index" : {
+            "analysis" : {
+                "filter" : {
+                    "synonym_filter_standard" : {
+                        "type" : "synonym",
+                        "synonyms" : [
+                            "Software Engineer,Software Developer,Principal Engineer",
+                            "Owner,Manager"                 ]
+                    },
+                    "synonym_filter_keyword" : {
+                        "type" : "synonym",
+                        "synonyms_path": "analysis/synonyms.txt"
+                    },
+                    "synonym_filter_keyword_updateable" : {
+                        "type" : "synonym",
+                        "synonyms_path": "analysis/synonyms.txt",
+                         "updateable" : true
+                    }
+                },
+                "analyzer" : {
+                    "synonym_analyzer_standard" : {
+                        "tokenizer" : "standard",
+                        "filter" : ["lowercase", "synonym_filter_standard"] 
+                    },
+                    "synonym_analyzer_keyword" : {
+                        "tokenizer" : "keyword",
+                        "filter" : ["lowercase"]  
+                    },
+                    "synonym_analyzer_ngram": {
+                      "tokenizer": "edge_ngram_tokenizer"
+                    },
+                    "synonym_analyzer_keyword_updateable": {
+                      "tokenizer" : "keyword",
+                        "filter" : ["lowercase", "synonym_filter_keyword_updateable"]
+                    },
+                     "synonym_analyzer_ngram_keyword": {
+                      "tokenizer" : "keyword",
+                        "filter" : ["lowercase"]
+                    }
+                  },
+                "tokenizer": {
+                  "edge_ngram_tokenizer": {
+                    "type": "edge_ngram",
+                    "min_gram": 3,
+                    "max_gram": 10,
+                    "token_chars": ["letter","digit"]
+                  }
+                }
+            }
+        }
+    },
+    "mappings": {
+            "properties": {
+              "StandardToken": { 
+                "type": "text",
+                "analyzer": "synonym_analyzer_standard"
+              },
+              "KeywordToken": { 
+                "type": "text",
+                "analyzer": "synonym_analyzer_keyword",
+                "search_analyzer": "synonym_analyzer_keyword_updateable"
+              },
+              "TokenGraph": { 
+                "type": "text",
+                "analyzer": "synonym_analyzer_ngram",
+                "search_analyzer": "synonym_analyzer_ngram_keyword"
+              }
+            }
+    }
+}
+
+
+POST /customer/_doc/1
+{
+"firstname": "Jennifer",
+"lastname": "Walters",
+"StandardToken":"Software Engineer",
+"KeywordToken":"Software Engineer",
+"TokenGraph":"ela"
+}
+
+POST /customer/_doc/2
+{
+"firstname": "Maximus",
+"lastname": "Walters",
+"StandardToken":"Software Developer",
+"KeywordToken":"Software Developer",
+"TokenGraph":"elastic"
+}
+
+POST /customer/_doc/3
+{
+"firstname": "Maximus",
+"lastname": "Dalters",
+"StandardToken":"Principal Engineer",
+"KeywordToken":"C++",
+"TokenGraph":"elapsed"
+}
+
+POST /customer/_doc/4
+{
+"firstname": "Maximus",
+"lastname": "Dalters",
+"StandardToken":"owner",
+"KeywordToken":"owner",
+"TokenGraph":"elated"
+}
+
+POST /customer/_doc/5
+{
+"firstname": "Maximus",
+"lastname": "Dalters",
+"StandardToken":"manager",
+"KeywordToken":"manager",
+"TokenGraph":"linknew"
+}
+
+
+POST /customer/_open
+
+
+GET posts_development/_search
+{"query":{"bool":{"should":[{"dis_max":{"queries":[{"multi_match":{"query":"Apple","boost":10,"operator":"and","analyzer":"searchkick_search","fields":["*.analyzed"],"type":"best_fields"}},{"multi_match":{"query":"Apple","boost":10,"operator":"and","analyzer":"searchkick_search2","fields":["*.analyzed"],"type":"best_fields"}},{"multi_match":{"query":"Apple","boost":1,"operator":"and","analyzer":"searchkick_search","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true,"fields":["*.analyzed"],"type":"best_fields"}},{"multi_match":{"query":"Apple","boost":1,"operator":"and","analyzer":"searchkick_search2","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true,"fields":["*.analyzed"],"type":"best_fields"}}]}}]}},"timeout":"11s","_source":false,"size":10000}
+
+
+
+GET posts_development/_search
+{
+"query" : {
+"match" : { "KeywordToken": "furniture" }
+}
+}
+
+
+GET /customer/_search
+{
+"query" : {
+"match" : { "KeywordToken": "Software Developer" }
+}
+}
+
+
+
+
+GET /customer/_validate/query?explain
+{
+"query" : {
+"match" : { "KeywordToken": "Software Developer" }
+}
+}
+
+POST /customer/_close
+POST /customer/_open
+
+GET /customer
+
+GET /customer/_doc/3/_explain
+{
+"query" : {
+"match" : { "KeywordToken": "c++" }
+}
+}
+
+
+
+GET /_analyze
+{
+  "tokenizer": {
+                  
+                    "type": "edge_ngram",
+                    "min_gram": 3,
+                    "max_gram": 10,
+                    "token_chars": [
+                      "letter",
+                      "digit",
+                      "whitespace"
+                    ]
+                  },
+  "filter" : ["lowercase"],
+  "text" : "elastic search"
+}
+
+POST /_plugins/_reload_search_analyzers
+POST /_plugins/_refresh_search_analyzers --customer
+#This works
+POST /_plugins/_refresh_search_analyzers/customer
+POST /customer/_reload_search_analyzers
+
+POST customer/_analyze
+{
+  "analyzer": "synonym_analyzer_keyword_updateable",
+  "text": "Software Developer"
+}
+
+GET /_analyze
+{
+  "analyzer" : "standard",
+  "text" : ["first array element", "second array element"]
+}
+
+
+
+GET /posts_development/_settings
+{"query":{"bool":{"should":[{"dis_max":{"queries":[{"multi_match":{"query":"software","boost":10,"operator":"and","analyzer":"searchkick_search","fields":["*.analyzed"],"type":"best_fields"}},{"multi_match":{"query":"2","boost":10,"operator":"and","analyzer":"searchkick_search2","fields":["*.analyzed"],"type":"best_fields"}},{"multi_match":{"query":"2","boost":1,"operator":"and","analyzer":"searchkick_search","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true,"fields":["*.analyzed"],"type":"best_fields"}},{"multi_match":{"query":"2","boost":1,"operator":"and","analyzer":"searchkick_search2","fuzziness":1,"prefix_length":0,"max_expansions":3,"fuzzy_transpositions":true,"fields":["*.analyzed"],"type":"best_fields"}}]}}]}},"timeout":"11s","_source":false,"size":10000}
+
+GET /posts_development_20221222093948949/_settings
+
+GET /posts_development_20221222093948949
+
+GET //_search
+GET /default_contacts_development_20221226130312448/_settings
+GET /shard1_contacts_development/_mappings
+GET /customer
+{
+    "settings": {
+        "index" : {
+            "analysis" : {
+                "filter" : {
+                    
+                    "synonym_filter_keyword_updateable" : {
+                        "type" : "synonym",
+                        "synonyms_path": "analysis/synonyms.txt",
+                         "updateable" : true
+                    }
+                },
+                "analyzer" : {
+                    
+                    "synonym_analyzer_keyword_updateable": {
+                      "tokenizer" : "keyword",
+                        "filter" : ["lowercase", "synonym_filter_keyword_updateable"]
+                    }
+                  }
+               }
+        }
+    },
+    "mappings": {
+            "properties": {
+              "title": { 
+                "type": "text",
+                "search_analyzer": "synonym_analyzer_keyword_updateable"
+              }
+            }
+    }
+}
+
+POST shard1_contacts_development/_analyze
+{
+  "analyzer": "synonym_analyzer_keyword_updateable",
+  "text": "Apple"
+}
+
+POST /shard1_contacts_development/_reload_search_analyzers 
+POST /_plugins/_refresh_search_analyzers/shard1_contacts_development
+POST /shard1_contacts_development/_reload_search_analyzers
+
+
+
+
+
+GET shard1_contacts_development/_search
+{"query":{"match":{"position":"Apple"}}}
+GET _cat/count/shard1_contacts_development_20221227173705374?v
+
+GET shard1_contacts_development/_analyze
+{  "analyzer": "synonym_analyzer_keyword_updateable",  "text": "Banana"}
+
+POST shard1_contacts_development/_validate/query?explain
+ {"query":{"match":{"position.analyzed":{"query":"Apple","boost":10,
+"operator":"and","analyzer":"synonym_analyzer_keyword_updateable"}}}}
+
+POST shard1_contacts_development/_validate/query?explain
+ {"query":{"match":{"position":{"query":"Apple","boost":10,
+"operator":"and","analyzer":"synonym_analyzer_keyword_updateable"}}}}
+ 
+ GET /shard1_contacts_development/_id/31/_explain
+{"query":{"bool":{"must":
+{"bool":{"should":[{"dis_max":{"queries":[{"match":{
+  "position":{"query":"Apple","boost":10,"operator":"and"
+,"analyzer":"synonym_analyzer_keyword_updateable"}}},{"match":
+{"position":{"query":"Apple","boost":10,
+"operator":"and","analyzer":"synonym_analyzer_keyword_updateable"}}}]}}]}}}}}
+
+shard1_contacts_development.re
+
+
+
+GET shard1_contacts_development/_search
+{"query":{"bool":{"must":
+{"bool":{"should":[{"dis_max":{"queries":[{"match":{
+  "position":{"query":"Apple","boost":10,"operator":"and"
+,"analyzer":"synonym_analyzer_keyword_updateable"}}},{"match":
+{"position":{"query":"Apple","boost":10,
+"operator":"and","analyzer":"synonym_analyzer_keyword_updateable"}}}]}}]}}}}}
+
+GET shard1_contacts_development/_settings
+GET shard1_contacts_development/_search
+{
+   "query":{
+      
+                              "match":{
+                                 "position.analyzed":{
+                                    "query":"apple",
+                                    "boost":10,
+                                    "analyzer":"synonym_analyzer_keyword_updateable"
+                                 }
+                              }
+                           
+                          
+   }
+}
+#2
+
+GET shard1_contacts_development/_search
+{
+   "query":{
+      "bool":{
+         "must":{
+            "bool":{
+               "should":[
+                  {
+                     "dis_max":{
+                        "queries":[
+                           {
+                              "match":{
+                                 "position.analyzed":{
+                                    "query":"Apple",
+                                    "boost":10,
+                                    "operator":"or",
+                                    "analyzer":"synonym_analyzer_keyword_updateable"
+                                 }
+                              }
+                           },
+                           {
+                              "match":{
+                                 "position.analyzed":{
+                                    "query":"Apple",
+                                    "boost":10,
+                                    "operator":"or",
+                                    "analyzer":"synonym_analyzer_keyword_updateable"
+                                 }
+                              }
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         },
+         "filter":[
+            {
+               "term":{
+                  "a_id":{
+                     "value":1
+                  }
+               }
+            }
+         ]
+      }
+   }
+}
+
+
+POST /_plugins/_refresh_search_analyzers/shard1_contacts_development -- reload message came but not working
+POST /shard1_contacts_development/_reload_search_analyzers --invalid command
+
+
+POST /_plugins/_reload_search_analyzers  --invalid command
+POST /_plugins/_refresh_search_analyzers --invalid command
+#This works
+POST /_plugins/_refresh_search_analyzers/shard1_contacts_development
+POST /shard1_contacts_development/_reload_search_analyzers
+POST /shard1_contacts_development/_cache/clear?request=true
+
+
+
+GET shard1_contacts_development/_search
+{"query":{"bool":{"must":{"bool":{"should":[{"dis_max":{"queries":[{"match":{"position.analyzed":{"query":"carrot","boost":10,"operator":"and","analyzer":"synonym_analyzer_keyword_updateable"}}},{"match":{"position.analyzed":{"query":"carrot","boost":10,"operator":"and","analyzer":"synonym_analyzer_keyword_updateable"}}}]}}]}},"filter":[{"term":{"a_id":{"value":1}}},{"term":{"del":{"value":false}}},{"terms":{"user_ids":[1]}}]}},"size":0,"aggs":{"c_id":{"terms":{"field":"c_id","size":1000,"order":{"_count":"desc"}},"aggs":{"contact":{"terms":{"size":2,"field":"e_id"}}}}}}
+
+GET global_company_auto_completes_development/_search 
+{"query":{"bool":{"must":{"bool":{"should":[{"dis_max":{"queries":[{"bool":{"must":{"bool":{"should":[{"match":{"name.word_start":{"query":"Micro","boost":10,"operator":"and","analyzer":"searchkick_word_search"}}}]}},"should":{"match":{"name.analyzed":{"query":"Micro","boost":10,"operator":"and","analyzer":"searchkick_word_search"}}}}}]}}]}},"filter":[{"terms":{"account_id":[1]}}]}},"timeout":"11s","_source":["id","name","domain"],"size":20}
+
+  

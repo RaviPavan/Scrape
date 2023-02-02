@@ -1,0 +1,255 @@
+accountant, staff accountant, senior accountant, project accountant, general accountant, accountants 
+dba, database administrator, database manager, data administrator, database admin, database dba, manager database, support dba, dbas, database supervisor 
+linux system administrator, linux administrator, linux engineer, linux admin, linux developer, linux system admin, linux consultant 
+oracle dba, oracle database administrator, oracle database architect 
+security administrator, it security administrator, security systems administrator, data security administrator, database security administrator 
+sql dba, sql database administrator, sql server dba, sql manager, manager sql 
+big data engineer, big data architect, big data developer, big data analyst, big data administrator, big data admin 
+business intelligence analyst, bi analyst, data warehouse analyst, etl analyst 
+security analyst, information security analyst, it security analyst, cyber security analyst, information security specialist, cyber security specialist, it security specialist, info security analyst, information security consultant, soc analyst, it security consultant, data security analyst, computer security specialist, information security professional, information systems security specialist 
+requirements analyst, requirements engineer, software requirements engineer 
+business analyst intern, business analyst internship 
+financial analyst intern, financial analyst internship 
+data architect, information architect, database architect, business intelligence architect, bi architect, data warehouse architect, etl architect, analytics architect, knowledge architect, data analytics architect 
+design architect, designer architect 
+enterprise architect, business architect, enterprise systems architect 
+delivery architect, implementation architect 
+security architect, information security architect, it security architect, cyber security architect, cybersecurity architect 
+landscape architect, landscape designer 
+solutions architect, solution architect, software architect, technical architect, application architect, infrastructure architect, it architect, integration architect, technology architect, applications architect, virtualization architect, technical solutions architect, computer architect, information technology architect, development architect 
+systems architect, system architect, computer systems architect, is architect, information systems architect, software systems architect, it systems architect, business systems architect 
+architectural project manager, architecture project manager, architectural project captain 
+application coordinator, applications coordinator, appl coor, application support coordinator, software clerk, software coordinator 
+it project coordinator, technical coordinator, technology coordinator, it coordinator, technical project coordinator, information technology coordinator, technical clerk 
+research coordinator, research project coordinator, research coord, research clerk, research and development coordinator, rsch coord 
+software development coordinator, web development coordinator 
+business consultant, internal consultant, business consultants, business consult 
+consulting engineer, engineering consultant 
+product designer, product developer 
+ux designer, ui developer, user experience designer, ui designer, ui engineer, ux developer, user experience architect, ux architect, user interface designer, user experience developer, interface designer, interface engineer, interface analyst, ux engineer, interface developer 
+etl developer, bi developer, business intelligence developer, data warehouse consultant, business information consultant, data warehouse developer, business intelligence engineer, bi consultant, business intelligence specialist, bus info consultant, business intelligence consultant, business info consultant, etl lead, etl consultant, datawarehouse developer 
+curriculum developer, training developer, curriculum specialist, learning designer, learning developer, curriculum writer 
+database developer, data engineer, database engineer, data modeler, database programmer, data developer, data programmer, data designer, database designer, database modeler 
+datastage developer, datastage mdm developer 
+game designer, game developer, game engineer, video game programmer, video game engineer, game programer, computer game programmer 
+hadoop developer, hadoop architect, hadoop engineer, hadoop administrator, hadoop admin, hadoop analyst 
+java developer, java engineer, j2ee developer, java programmer, java architect, java j2ee developer, java application developer, java tech, java applications developer, j2ee architect, java consultant, java j2ee architect, java lead, java integration developer, j2ee engineer 
+javascript developer, javascript software engineer, java script developer 
+net developer, net web developer, net architect, .net developer, .net architect 
+pl sql developer, oracle database developer, oracle database engineer 
+php developer, php web developer, php engineer 
+ruby on rails developer, rails developer, ruby developer, ruby on rails engineer, ror engineer, ror developer 
+salesforce developer, sales force developer, salesforce specialist 
+sharepoint developer, sharepoint administrator, sharepoint admin, sharepoint consultant, sharepoint specialist 
+web developer, front end developer, web designer, web application developer, front end engineer, website designer, web engineer, web applications developer, website developer, web programmer, web architect, web site designer, web software developer, web application engineer, web applications engineer 
+director software, director applications, director application, director of software, software director, applications director, director of applications, director it applications, director of application, application director, director apps, director of it applications 
+director of architecture, architecture director, director architecture, director architectural 
+director biomedical engineering, director of biomedical engineering 
+director business intelligence, director of business intelligence, business intelligence director, director data warehouse, data warehouse director, director business information, director business info 
+director data, data director, director of data 
+director data analytics, director of data analytics, director data analysis 
+director database, director of database, director data base, director it database 
+director data management, director of data management, data management director 
+director of engineering, director engineering, engineering director 
+director it project, director of it project, director technical project, director technology project 
+audit director, director internal audit, director of internal audit, internal audit director, director audit, director of audit 
+director internal control, director internal controls, director of internal controls 
+director international, director of international, international director 
+director manufacturing engineering, director of manufacturing engineering 
+director of mechanical engineering, director mechanical engineering 
+director process engineering, director of process engineering 
+director project management, director of project management, director pmo, pmo director, project management director, director of pmo 
+director software development, director of software development, director of software engineering, director application development, director software engineering, director of information systems, director information systems, director is, software development director, director systems support, is director, director of application development, information systems director, director of is, software engineering director 
+director software quality assurance, director software quality, director of software quality assurance 
+director web, director of web, web director, director of web development, director website, internet director, website director, director web development, web development director, director internet, director of website 
+embedded software engineer, embedded software developer, embedded application developer, embedded software programmer, embedded software designer 
+security engineer, information security engineer, cyber security engineer, security systems engineer, it security engineer, protection engineer, cybersecurity engineer, computer security engineer, security system engineer, is security engineer, data security engineer 
+operations engineer, production engineer, operations architect 
+quality engineer, qa engineer, quality assurance engineer, performance engineer, assurance engineer, quality control engineer, improvement engineer, business process engineer, qc engineer, business process architect, lean engineer, quality management engineer, quality eng, quality improvement engineer, quality assurance eng 
+sales engineer, presales engineer, sales architect 
+scientist engineer, engineering scientist 
+software engineer, software developer, programmer analyst, application developer, application engineer, software development engineer, applications engineer, applications developer, sde, computer programmer, software engineers, application support engineer, software programmer, systems software engineer, analyst programmer 
+sdet, software test engineer, software tester, software qa engineer, software quality engineer, applications tester, sqa engineer, software quality assurance engineer, systems test engineer, system validation engineer, software qa tester, software quality analyst, software qa analyst, software quality assurance specialist, software test analyst 
+solutions engineer, solution engineer, solution developer, solution designer 
+storage engineer, storage administrator, storage architect 
+test engineer, validation engineer, testing engineer, test eng, test architect, validation architect 
+water resources engineer, wastewater engineer, water wastewater engineer, water engineer, wastewater process engineer, waste water engineer, water project engineer, wastewater project engineer, wastewater design engineer 
+entrepreneur, founder, co founder, small business owner, founding partner 
+hospitalist, internal medicine hospitalist, academic hospitalist 
+academic intern, academic internship 
+accounting intern, accounting internship 
+actuarial internship, actuarial intern 
+administrative intern, administrative internship, administration intern, administration internship 
+advertising internship, advertising intern 
+agriculture internship, agriculture intern, sustainable agriculture internship 
+analytics intern, analytics internship, analysis intern, analysis internship 
+intern architect, architectural intern, architecture intern, architect intern, architecture internship, associate architect, architect internship, architect in training, architectural internship, apprentice architect 
+art gallery internship, art gallery intern 
+ncaa compliance internship, athletics compliance internship 
+athletic training internship, athletic training intern 
+audit intern, internal audit intern, audit practice intern, audit internship, internal audit internship 
+biology internship, biology intern 
+biomedical engineering internship, biomedical engineering co op, biomedical engineering intern 
+business intern, business internship 
+business management intern, business management internship 
+buying intern, buyer intern, buying internship, buyer internship 
+campus recruiting internship, campus interviews intern, campus recruiting intern 
+chemical engineering co op, chemical engineering intern, chemical engineering internship 
+chemist intern, chemistry internship, chemistry intern, chemist internship 
+college intern, college internship, university intern, university internship 
+communications intern, communications internship 
+compliance intern, compliance internship 
+computer science intern, computer science internship 
+consultant intern, consulting intern, consultant internship, consultants intern, consulting internship, advisory intern, advisory internship 
+copywriting intern, copywriting internship 
+corporate intern, corporate internship 
+credit intern, credit internship 
+culinary internship, culinary intern 
+dental internship, dental intern 
+design engineering intern, design engineering internship, design engineering co op 
+diversity intern, diversity internship, multicultural internship, inclusion intern, inclusion internship 
+editorial intern, editing intern, editorial internship, editing internship 
+engineering intern, engineer intern, engineering co op, engineering internship, engineer internship 
+environmental engineering intern, environmental engineering co op, environmental engineering internship 
+equine internship, equine intern 
+events intern, events internship 
+event coordinator intern, event planning intern, event planning internship, event coordinator internship 
+exercise science internship, exercise science intern 
+fall internship, fall intern 
+fashion intern, fashion internship 
+fashion buying internship, fashion buying intern 
+fashion styling intern, fashion styling internship 
+finance intern, finance internship, financial services intern, financial internship, financial intern, financial services internship 
+finance accounting internship, finance accounting intern 
+general intern, general internship 
+regulatory affairs internship, regulatory intern, regulatory affairs intern, regulatory internship 
+grad intern, graduate intern, graduate internship, post graduate internship, grad internship, post graduate intern 
+graphic design intern, graphic design internship 
+help desk internship, help desk intern 
+hospital internship, hospital intern 
+hospitality internship, hospitality intern 
+human resources intern, human resources internship, hr intern, hr internship, human resource intern, human resource internship 
+industrial design intern, industrial design internship 
+industrial engineering intern, industrial engineering co op, industrial engineering internship 
+intelligence intern, intelligence internship 
+journalism internship, journalism intern 
+lab intern, lab internship 
+development intern, management intern, manager internship, development internship, management internship, manager intern, management development intern, supervisor intern, leadership program internship, leadership program intern, supervisor internship 
+legal internship, legal intern 
+logistics intern, logistics internship 
+manufacturing intern, manufacturing internship 
+manufacturing engineering intern, manufacturing engineering co op, manufacturing engineering internship 
+marketing intern, marketing internship, business development intern, product development intern, market research intern, digital marketing intern, digital marketing internship, market research internship, business development internship, product development internship, commercial internship, commercial intern 
+materials intern, materials internship 
+mba internship, mba intern 
+mechanical intern, mechanical internship 
+mechanical engineering intern, mechanical engineering co op, mechanical engineering internship 
+social media intern, media intern, social media internship, media internship 
+merchandising internship, merchandising intern, visual merchandising internship, visual merchandising intern 
+music internship, music intern 
+record label internship, recording studio internship, music industry internship, recording studio intern, record label intern, music industry intern 
+network internship, network intern 
+news internship, news intern 
+nutrition internship, nutrition intern 
+operations intern, supply chain intern, production intern, operations internship, supply chain internship, production internship, procurement intern, purchasing intern, sourcing intern, procurement internship, sourcing internship, purchasing internship 
+paid internship, paid intern 
+paralegal internship, paralegal intern 
+pharmacy intern, pharmacist intern, pharmacy internship, pharmacist internship 
+pharmacy grad intern, pharmacy graduate intern, pharm grad intern 
+phd internship, phd intern 
+photography intern, photography internship 
+planning intern, planning internship, planner internship, planner intern 
+policy intern, policy internship 
+epidemiology internship, epidemiology intern 
+process engineering intern, process engineering internship, process engineering co op 
+product manager intern, product management intern, product management internship, product manager internship 
+program management intern, program management internship 
+project management intern, project manager intern, project intern, project management internship, project manager internship, project internship 
+public relations intern, public relations internship, pr intern, pr internship 
+quality assurance intern, qa intern, quality intern, quality assurance internship, quality internship, qa internship, quality controls intern, improvement intern 
+real estate internship, real estate intern 
+recruiting internship, recruiting intern, recruitment internship, recruitment intern 
+research intern, research internship, r d intern, r d internship, research associate intern, research program intern, research associate internship, research program internship 
+risk intern, risk management intern, risk management internship, risk internship 
+nurse extern, nurse intern, rn internship, nurse internship, rn intern, registered nurse internship, registered nurse intern 
+sales intern, sales internship, sales consultant intern 
+sales management intern, sales management internship 
+science intern, science internship, scientist internship, scientist intern 
+security intern, security internship 
+software intern, software developer intern, software development intern, software developer internship, programming intern, programming internship, software development internship, software internship, application internship, applications intern 
+sports internship, sports intern, sport internship, sport intern 
+sports management internship, sports management intern 
+sports marketing internship, sports marketing intern 
+spring internship, spring intern, spring internships 
+statistics intern, statistics internship 
+strategy intern, strategy internship 
+summer internship, summer intern, summer college intern, summer internships, summer college internship 
+tax intern, tax internship, tax consultant intern, tax services intern 
+test engineering intern, test engineering co op 
+training intern, training internship 
+undergraduate internship, undergraduate intern, undergrad intern, undergrad internship 
+underwriting internship, underwriting intern 
+video editing internship, video editing intern 
+video production intern, video production internship 
+web development intern, web development internship 
+wedding planning internship, wedding planning intern 
+winter intern, winter internship 
+application manager, manager software, manager application, software manager, software project manager, applications manager, application supervisor, supervisor application, applications supervisor, system software manager, supervisor software, systems software manager, manager of software, software supervisor 
+application support manager, manager application support, applications support manager, software support manager, software support supervisor 
+audit manager, internal audit manager, audit supervisor, manager internal audit, manager audit, internal audit supervisor, manager of internal audit, auditor manager, supervisor audit, auditing manager, audit mgr, auditor supervisor, auditing supervisor 
+automation engineering manager, automation engineering supervisor 
+business intelligence manager, manager business intelligence, bi manager, etl manager, data warehousing manager, data warehouse manager, manager data warehouse, business information manager, manager data warehousing, business intelligence supervisor, datawarehouse manager, manager etl, manager business information 
+construction manager, construction project manager, construction superintendent, construction foreman, manager construction, construction supervisor, construction project mgr, construction mgr, supervisor construction, construction project administrator, manager of construction, construction project director, construction project supervisor 
+dba manager, manager database administration, database administration manager 
+design engineering manager, manager design engineering, design engineering supervisor 
+digital marketing manager, internet sales manager, manager ecommerce, online marketing manager, ecommerce manager, manager digital marketing, manager e commerce, ecommerce marketing manager, e commerce manager, internet marketing manager, manager online marketing, internet sales supervisor, emarketing manager, e commerce supervisor, digital marketing supervisor 
+industrial engineering manager, manager industrial engineering, industrial engineering supervisor 
+manager internal, manager of internal 
+manager international, manager of international, international manager, international supervisor 
+it project manager, technical project manager, infrastructure project manager, technology project manager, is project manager, technical project lead, information technology project manager, it project lead, it project leader, it project managers, it project specialist, it project consultant, technical project leader, software development project manager, it project analyst 
+information security manager, manager it security, it security manager, manager information security, information systems security manager, network security manager, cyber security manager, manager of information security, manager network security, manager cyber security, data security manager, data security supervisor, information security supervisor, cybersecurity manager, it security supervisor 
+manufacturing engineering manager, manager manufacturing engineering, manufacturing engineering supervisor 
+mechanical engineering manager, manager mechanical engineering, mechanical engineering supervisor, manager of mechanical engineering 
+oracle database manager, manager oracle database 
+process engineering manager, manager process engineering, process engineering supervisor, process design manager 
+product manager, product owner, manager product, product architect, product mgr, manager of product, product supervisor, product mgmt dev manager 
+project manager, pmp, project administrator, project leader, project managers, project mgr, project architect, manager project, lead project manager, project supervisor, project admin, projects manager, project coach, project team leader, proj mgr 
+project engineering manager, project engineering supervisor 
+manager project management, pmo manager, manager pmo, project management manager, manager of project management, project planning manager, manager of pmo, project management supervisor, supervisor project management 
+research manager, manager research, research project manager, manager r d, r d manager, research development manager, research and development manager, research supervisor, manager research and development, manager research development, rd manager, research and development supervisor, research senior manager 
+software development manager, software engineering manager, application development manager, manager software engineering, manager software development, manager application development, applications development manager, programming manager, manager of applications development, dev technical mgr, manager of software engineering, manager of application development, manager programming, software design manager, manager of software development 
+test engineering manager, test engineering supervisor 
+manager web, web development manager, web manager, website manager, internet manager, manager internet, manager intranet, supervisor web, manager website, web supervisor, website supervisor, internet supervisor 
+professor of architecture, architecture professor 
+chemical engineering professor, professor of chemical engineering 
+professor of mechanical engineering, mechanical engineering professor 
+cnc programmer, nc programmer, numerical control programmer, cnc lathe programmer 
+mainframe developer, mainframe programmer, mainframe systems programmer, mainframe architect 
+scientific programmer, scientific programmer analyst 
+rn internal medicine, registered nurse internal medicine, internal medicine nurse 
+automation specialist, automation developer, automation tester, automation architect, automation lead, automation analyst, automation technologist 
+bioinformatics analyst, bioinformatics specialist, bioinformatics software engineer, bioinformatics developer, bioinformatics engineer, bioinformatics associate 
+business development representative, business development consultant, business developer, business development specialist, business development associate, business development analyst, bdr, business development professional, market development consultant 
+call center representative, call center rep, call center agent, call center specialist, contact center representative, call center operator, contact center specialist, call center associate, contact center agent, contact center developer, contact center rep 
+content specialist, content strategist, content developer, content producer, content analyst, content designer 
+digital marketing specialist, digital marketing analyst, digital marketing strategist, internet marketing consultant, internet marketing analyst, online marketing specialist, online marketing consultant, digital marketing associate, online marketing analyst, e commerce specialist, e commerce strategist, emarketing analyst 
+edi analyst, edi specialist, edi developer 
+systems analyst engineer, engineering systems analyst 
+erp consultant, erp analyst, erp developer, erp specialist, enterprise resource planning consultant, enterprise resource planning specialist 
+web analyst, web specialist, internet consultant, internet specialist 
+web content specialist, web content producer, online content developer 
+oracle developer, manager oracle, oracle manager, oracle specialist, oracle supervisor 
+peoplesoft developer, peoplesoft administrator, peoplesoft consultant, peoplesoft taleo consultant, peoplesoft analyst, peoplesoft specialist 
+project lead, project analyst, project specialist, project planner, project consultant, project associate, project management specialist, pmo analyst, project designer, project management professional, project management analyst, project hire, project management consultant, project support specialist, project developer 
+reporting analyst, reporting specialist, report developer, report analyst, reports developer, reports analyst, reporting lead, reporting consultant, reporting developer, reporting associate, report specialist 
+sap consultant, sap basis administrator, sap analyst, sap specialist, sap developer 
+application analyst, application specialist, applications analyst, application consultant, applications specialist, software analyst, application administrator, software specialist, applications administrator, software consultant, applications consultant, software lead, it applications analyst, application lead, application spec 
+statistician, sas programmer, mathematician, statistical programmer, statistical analyst, sas developer, sas analyst, sas administrator, statistical consultant, mathematical statistician, statistical programmer analyst, applied statistician, statistical scientist, survey statistician 
+technical trainer, technical instructor, technology instructor, technology teacher, technical training specialist, software trainer, computer teacher, it training specialist, it instructor, computer instructor, system trainer, software educator, information technology instructor, application trainer, computer trainer 
+vp software, vice president software, vp application, vp applications, vp apps, vp of applications, vp of software, vp of application, vice president application, vice president of software, vice president applications 
+vp data, vice president data, vp of data, vice president of data 
+vp project, vp project management, vice president project, vp pmo, vice president project management, vp projects, vice president pmo, vice president projects, vp of project management, vp of pmo, vice president of project management 
+vp software engineering, vp application development, vp software development, vice president software engineering, vp of software engineering, vice president software development, vp of application development, vice president application development, vice president of software development, vp of software development, vice president of software engineering, vice president of application development, vp applications development, vice president applications development 
+wholesaler, internal wholesaler 
+technical writer, technical editor, tech writer, technical publications writer, specifications writer, engineering technical writer, principal technical writer, engineering writer 
+sql developer, sql database developer 
